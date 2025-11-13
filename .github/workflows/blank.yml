@@ -2,7 +2,7 @@ name: CI
 on:
   workflow_dispatch:
 jobs:
-  build:
+  detect-secrets:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
